@@ -39,3 +39,8 @@ Trong quá trình thực hành tại file `main.ipynb`, hệ thống đã trích
   - **GraphRAG:** Có thể rẻ hơn hoặc tương đương lúc truy vấn so với Flat RAG, vì context ghép vào prompt LLM (dưới dạng các cạnh đồ thị) thường ngắn gọn, cô đọng hơn so với việc nhét toàn bộ các đoạn text dài. Quan trọng nhất là độ chính xác (Accuracy) cho truy vấn phức tạp cao hơn hẳn, khắc phục được ảo giác (hallucination).
 
 **Kết luận chung:** GraphRAG là giải pháp hoàn hảo cho các bài toán QA phức tạp cần kết nối thông tin phân tán. Flat RAG vẫn chiếm ưu thế trong các ứng dụng cần tốc độ triển khai và chi phí rẻ.
+
+### Hình ảnh Đồ thị Tri thức (Knowledge Graph)
+Dưới đây là ảnh chụp màn hình đồ thị tri thức được xây dựng bằng Matplotlib từ một phần dữ liệu Tech Company Corpus:
+
+![Knowledge Graph](./graph.png)
